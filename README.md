@@ -37,6 +37,20 @@
 
 ---
 
+## 📸 ภาพตัวอย่างระบบ (System Snapshots)
+
+| 1. คลังเอกสาร & สื่อการเรียนรู้ (Files Portal) | 2. แผงควบคุมภาพรวม (Admin Dashboard) |
+| :---: | :---: |
+| ![คลังเอกสาร](docs/screenshots/02_files_portal.png) | ![ภาพรวมระบบ](docs/screenshots/03_admin_dashboard.png) |
+| ค้นหา กรองไฟล์ตามกลุ่ม LINE / นามสกุล และพรีวิวเอกสาร | สถิติจำนวนไฟล์ พื้นที่ใช้งาน และสถานะการเชื่อมต่อ Drive |
+
+| 3. ระบบจัดการข้อมูลครู (Teacher Management) | 4. หน้าเข้าสู่ระบบ (Teacher Login) |
+| :---: | :---: |
+| ![จัดการครู](docs/screenshots/04_teacher_management.png) | ![หน้าเข้าสู่ระบบ](docs/screenshots/01_login.png) |
+| เพิ่ม/แก้ไขข้อมูลครู กำหนดสิทธิ์ Admin และเปิด-ปิดสถานะ | เข้าใช้งานสะดวกรวดเร็วด้วยรหัสประจำตัวครู (Teacher ID) |
+
+---
+
 ## 🏗️ สถาปัตยกรรมระบบ (Architecture)
 
 ```
