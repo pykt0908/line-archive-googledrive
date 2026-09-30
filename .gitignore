@@ -1,0 +1,46 @@
+# System & OS
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE & Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project & Deployment Artifacts (Ignored from repository)
+line_archive_core/
+public_html/
+staging_update/
+spec/
+*.zip
+vendor.zip
+update_files_feature.zip
+
+# Environment Files (Do not commit secrets)
+.env
+.env.backup
+.env.production
+backend/.env
+frontend/.env
+frontend/.env.local
+backend/storage/credentials/*.json
+
+# Backend Dependencies & Cache
+backend/vendor/
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*.log
+backend/storage/app/public/drive_simulation/*
+!backend/storage/app/public/drive_simulation/.gitkeep
+backend/database/*.sqlite*
+
+# Frontend Dependencies & Build Output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/

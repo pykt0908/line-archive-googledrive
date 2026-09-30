@@ -1,0 +1,253 @@
+/* LINE Seed Sans TH - Official Brand Fonts */
+@font-face {
+  font-family: 'LINE Seed Sans TH';
+  src: url('./assets/font/LINESeedSansTH_W_Th.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LINE Seed Sans TH';
+  src: url('./assets/font/LINESeedSansTH_W_Rg.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LINE Seed Sans TH';
+  src: url('./assets/font/LINESeedSansTH_W_Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LINE Seed Sans TH';
+  src: url('./assets/font/LINESeedSansTH_W_XBd.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LINE Seed Sans TH';
+  src: url('./assets/font/LINESeedSansTH_W_He.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'LINE Seed Sans TH', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: 'LINE Seed Sans TH', sans-serif;
+}
+
+.v-application {
+  font-family: 'LINE Seed Sans TH', sans-serif !important;
+}
+
+/* Reduced Crisp Border Radius */
+.v-card, .v-sheet, .v-overlay__content > .v-card {
+  border-radius: 8px !important;
+}
+
+.v-btn {
+  border-radius: 6px !important;
+  text-transform: none !important;
+  font-family: 'LINE Seed Sans TH', sans-serif !important;
+}
+
+.v-chip {
+  border-radius: 6px !important;
+}
+
+.v-field--variant-outlined {
+  border-radius: 6px !important;
+}
+
+.rounded-xl {
+  border-radius: 8px !important;
+}
+
+.rounded-lg {
+  border-radius: 6px !important;
+}
+
+.rounded-md {
+  border-radius: 4px !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Google Drive Style Thumbnail Preview Styles */
+.file-thumbnail-container {
+  height: 145px;
+  background-color: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.file-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.file-card:hover .file-thumb-img {
+  transform: scale(1.04);
+}
+
+.thumb-hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(15, 23, 42, 0.4);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.file-card:hover .thumb-hover-overlay {
+  opacity: 1;
+}
+
+/* Document Mockups */
+.doc-mockup {
+  width: 130px;
+  height: 110px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mockup-header {
+  line-height: 1;
+}
+
+.mockup-title {
+  font-size: 9px;
+  font-weight: 700;
+  color: #334155;
+  font-family: 'LINE Seed Sans TH', sans-serif;
+}
+
+.mockup-line {
+  height: 4px;
+  background-color: #e2e8f0;
+  border-radius: 2px;
+}
+
+.sheet-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 4px;
+}
+
+.sheet-row {
+  display: flex;
+  gap: 2px;
+}
+
+.sheet-row.header-row .sheet-cell {
+  background-color: #dcfce7;
+  color: #166534;
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sheet-cell {
+  flex: 1;
+  height: 14px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 2px;
+}
+
+.ppt-slide-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff7ed;
+  border: 1px dashed #fdba74;
+}
+
+/* Google Drive Mobile List View */
+.drive-list-container {
+  border: 1px solid #e2e8f0;
+}
+
+.drive-list-item {
+  min-height: 62px;
+  padding: 14px 16px;
+  transition: background-color 0.15s ease;
+  border-bottom: 1px solid #f1f5f9;
+  cursor: pointer;
+  user-select: none;
+}
+
+.drive-list-item:hover {
+  background-color: #f8fafc;
+}
+
+.drive-list-item:active {
+  background-color: #f1f5f9;
+}
+
+.drive-list-item:last-child {
+  border-bottom: none;
+}
+
+/* Responsive 2-column Grid on Mobile */
+@media (max-width: 600px) {
+  .file-thumbnail-container {
+    height: 105px !important;
+  }
+  .doc-mockup {
+    width: 105px !important;
+    height: 88px !important;
+    padding: 6px !important;
+  }
+  .mockup-title {
+    font-size: 8px !important;
+  }
+  .sheet-cell {
+    height: 10px !important;
+  }
+}
+
